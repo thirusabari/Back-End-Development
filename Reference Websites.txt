@@ -1,0 +1,1 @@
+LINQ: https://www.javatpoint.com/linq

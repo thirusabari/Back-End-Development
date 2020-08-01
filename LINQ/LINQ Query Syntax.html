@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> LINQ Query Syntax </title>
+<style>
+table, tr, th {
+border:1px solid black;
+border-collapse: collapse;
+}
+th, td{
+padding:5px;
+}
+table {
+width:100%;
+text-align: center;
+}
+th{
+background-color:grey;
+}
+</style>
+</head>
+<body>
+	<h1> LINQ Query Syntax </h1>
+	<p title="QueryDef">
+LINQ is one of the easiest ways to write the complex LINQ Queries in an accessible and readable format. 
+The syntax of this type of Query is much similar to SQL queries.
+<br>
+<br>
+In LINQ, we write the LINQ query by following certain rules. 
+The syntax is different from the SQL. For writing the Query in LINQ, there is a need to follow the syntax hierarchy like as:
+<br>
+<br>
+<form>
+<fieldset>
+from <b>variable</b> in <b>collection</b>  <br>
+<b>where, joining, grouping, operators, etc.</b> <i>lambda expression</i>  <br>
+<b>select or groupBy operator</b> <i>format the results</i>
+</fieldset>
+</form>
+<br>
+We will follow this order when we are writing the queries in LINQ. 
+The starting point of LINQ will start from the <b>"from"</b> keyword, which is followed by a user-defined variable followed by in which specifies the source of the collection or reference of the data, which is followed by a where clause.
+ If there is a particular query that can be used before the select icon to filter the record and select is followed by and group by into the clause.
+</p>
+<br>
+<br>
+<b>The order of the clauses in LINQ query will be like, as shown below:</b>
+<table>
+<caption> Order of the Clauses in LINQ </caption>
+<thead>
+<th>Clauses</th>
+	<th>Description</th>
+</thead>
+<tbody>
+<tr>
+	<td>From</td>
+	<td>[Identifier]</td>
+</tr>
+<tr>
+	<td>In</td>
+	<td>[Source Collection]</td>
+</tr>
+<tr>
+	<td>Let</td>
+	<td>[Expression]</td>
+</tr>
+<tr>
+	<td>Where</td>
+	<td>[Boolean Expression]</td>
+</tr>
+<tr>
+	<td>order by</td>
+	<td>[Expression]</td>
+</tr>
+<tr>
+	<td>Select</td>
+	<td>[Expression]</td>
+</tr>
+<tr>
+	<td>group by</td>
+	<td>[Expression]</td>
+</tr>
+<tr>
+	<td>into</td>
+	<td>[Expression]</td>
+</tr>
+</tbody>
+</table>	
+</body>
+</html>
